@@ -1,0 +1,142 @@
+/** {
+  border: 2px red solid;
+}*/
+
+body {
+  margin: 0px 0px 0px 0px;
+  /*border: 10px solid red;*/
+}
+header {
+  background-image: url(../images/bg-img0.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subtitle {
+  color: orange;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+h1 {
+  color: orange;
+  font-size: 85px;
+  margin-top: 20px;
+  line-height: 49px;
+}
+
+.killshots {
+  width: 630px;
+  height: 350px;
+  /*background-color: blue;*/
+}
+tr {
+  width: 630px;
+}
+td {
+  border: black solid 5px;
+  /*background-color: blue;*/
+}
+
+.tableimg {
+
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+}
+
+.contain {
+  height: 500px;
+  /*vertical-align: bottom;*/
+}
+
+.main-box {
+  display:inline-block;
+  height: 100%;
+  width: 630px;
+  background-color: black;
+  -webkit-filter: opacity(80%);
+  text-align: center;
+  vertical-align: bottom;
+}
+
+a, a:visited, a:hover, a:active, a:link {
+  text-decoration: none;
+  color: orange;
+}
+.box {
+  display: inline-block;
+  height: 100%;
+  width: 150px;
+  background-color: black;
+  -webkit-filter: opacity(90%);
+  vertical-align: bottom;
+}
+
+ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+li {
+  /*background-color: blue;*/
+  margin-top: 10px;
+  margin-left: 10px;
+  color: orange;
+}
+
+
+
+.title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 0px;
+}
+
+
+.mid {
+  width: 100px;
+  height: 100px;
+}
+
+.small {
+  width: 50px;
+  height: 50px;
+  background-image: url(../images/bg-img0.jpg);
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid red;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
